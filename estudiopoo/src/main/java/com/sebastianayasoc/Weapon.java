@@ -21,10 +21,6 @@ public class Weapon extends Item implements Equipable{
         } else{
             System.out.println("Primero debes equipar : " + getName());
         }
-
-
-
-
     }
 
     public void Use(int bonus){
